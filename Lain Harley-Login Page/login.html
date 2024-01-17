@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LAIN HARLEY</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/login.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Onest:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+        </style>
+    </head>
 
-<body>
-  <main>
-    <section>
-      <div class="login-wrap">
-        <div class="login-html">
-          <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-          <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-          <div class="login-form">
-            <div class="sign-in-htm">
-              <div class="group">
-                <label for="user" class="label">Username</label>
-                <input id="user" type="text" class="input">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password">
-              </div>
-              <div class="group">
-                <input id="check" type="checkbox" class="check" checked>
-                <label for="check"><span class="icon"></span> Keep me Signed in</label>
-              </div>
-              <div class="group">
-                <input type="submit" class="button" value="Sign In">
-              </div>
-              <div class="hr"></div>
-              <div class="foot-lnk">
-                <a href="#forgot">Forgot Password?</a>
-              </div>
+    <body>
+        <section>
+            <!-- Logo Section -->
+            <div class="container">
+                <div id="title-card" class="center">
+                    <h1 class="title">
+                        <a href="index.html">LAIN HARLEY</a>
+                    </h1>
+                </div>
+                <!-- Form Section -->
+                <div class="row m-5 no-gutters shadow-lg">
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="https://images.unsplash.com/photo-1566888596782-c7f41cc184c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80"
+                            class="img-fluid" style="min-height:100%;" />
+                    </div>
+                    <div class="col-md-6 bg-white p-5">
+                        <h3 class="pb-3" style="text-align: center; margin-bottom: 0;">Log In</h3>
+                        <p style="text-align: center; margin-top: 0;">Log in to your Lain Harvey Account</p>
+                        <div class="form-style">
+                            <form>
+                                <div class="form-group pb-3">
+                                    <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group pb-3">
+                                    <input type="password" placeholder="Password" class="form-control"
+                                        id="exampleInputPassword1">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="d-flex align-items-center"><input name="" type="checkbox" value="" /> <span
+                                            class="pl-2 font-weight-bold">Remember Me</span></div>
+                                    <div><a href="#">Forget Password?</a></div>
+                                </div>
+                                <div class="pb-2">
+                                    <button type="submit" class="btn btn-dark w-100 font-weight-bold mt-2">
+                                        Log In
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="sideline">OR</div>
+                            <!-- TODO: ADD SOCIAL MEDIA BUTTONS -->
+                            <div>
+                                <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>Login With Facebook</button>
+                            </div>
+                            <div class="pt-4 text-center">
+                               <p>Don't have an account? <a href="#">Sign Up</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="sign-up-htm">
-              <div class="group">
-                <label for="user" class="label">Username</label>
-                <input id="user" type="text" class="input">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Repeat Password</label>
-                <input id="pass" type="password" class="input" data-type="password">
-              </div>
-              <div class="group">
-                <label for="pass" class="label">Email Address</label>
-                <input id="pass" type="text" class="input">
-              </div>
-              <div class="group">
-                <input type="submit" class="button" value="Sign Up">
-              </div>
-              <div class="hr"></div>
-              <div class="foot-lnk">
-                <label for="tab-1">Already Member?</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-  </main>
-  
-    <script src="login.js"></script>
-</body>
-
+        </section>
+    </body>
 </html>
