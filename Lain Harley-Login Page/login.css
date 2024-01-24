@@ -1,82 +1,98 @@
-
 body{
-  background-color: honeydew;
-  color: black;
-  background-image: linear-gradient(to right, lightblue, lightgreen);
- }
-
- .form-control {
-  opacity: 65%;
-  background-color: rgb(168, 163, 163);
- }
- 
-
-  .form-style input{
-    border:0;
-    height:50px;
-    border-radius:0;
-  border-bottom:1px solid #ebebeb;	
-  }
-
-  h3 {
-    font-family: 'Young Serif', 'Times New Roman', serif;
-  }
-
- section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100vh;
-  margin: 0;
- }
-
- a {
-  color: black;
- }
-
- a:hover {
-  text-decoration: none;
-  color: rgb(32, 31, 31);
- }
-
-  .form-style input:focus{
-  border-bottom:1px solid #007bff;	
-  box-shadow:none;
-  outline:0;
-  background-color:#ebebeb;	
-  }
-
-  .sideline {
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    color:#ccc;
-  }
-
-  button{
-  height:50px;	
-  }
-
-  .sideline:before,
-  .sideline:after {
-      content: '';
-      border-top: 1px solid #ebebeb;
-      margin: 0 20px 0 0;
-      flex: 1 0 20px;
-  }
+	background-color: honeydew;
+	color: black;
+	background-image: linear-gradient(to right, lightblue, lightgreen);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+   }
   
-  .sideline:after {
-      margin: 0 0 0 20px;
+   .form-control {
+	opacity: 65%;
+	background-color: rgb(168, 163, 163);
+   }
+   
+  
+	.form-style input{
+	  border:0;
+	  height:50px;
+	  border-radius:0;
+	border-bottom:1px solid #ebebeb;	
+	}
+  
+	h3 {
+	  font-family: 'Young Serif', 'Times New Roman', serif;
+	}
+  
+   section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100vh;
+	margin: 0;
+   }
+  
+   a {
+	color: black;
+   }
+  
+   a:hover {
+	text-decoration: none;
+	color: rgb(32, 31, 31);
+   }
+  
+	.form-style input:focus{
+	border-bottom:1px solid #007bff;	
+	box-shadow:none;
+	outline:0;
+	background-color:#ebebeb;	
+	}
+  
+	.sideline {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	  color:#ccc;
+	}
+  
+	button{
+	height:50px;	
+	}
+  
+	.sideline:before,
+	.sideline:after {
+		content: '';
+		border-top: 1px solid #ebebeb;
+		margin: 0 20px 0 0;
+		flex: 1 0 20px;
+	}
+	
+	.sideline:after {
+		margin: 0 0 0 20px;
+	}
+  
+  
+	.title {
+	  font-family: 'Dela Gothic One', sans-serif;
+	  font-size: 2.75em;
+	  margin-bottom: 0;
+	  text-align: center;
+	  padding-top: 70px;
+	
   }
 
+  img {
+	opacity: 55%;
+  }
 
-  .title {
-    font-family: 'Dela Gothic One', sans-serif;
-    font-size: 2.75em;
-    margin-bottom: 0px;
-    text-align: center;
-  
+.pb-3 {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+	font-style: normal;
 }
